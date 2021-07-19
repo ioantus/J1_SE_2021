@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7450acae-ef17-4e14-b3a3-1fe44ca367bb" name="Default Changelist" comment="Lessons 1-4, easy tasks 1-5">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_compiler_plugin_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_incremental_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_manager_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_0_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_api_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_impl_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_spi_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/J1_SE_2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/NonStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson3/MyPrimitiveType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson4/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson4/ExampleInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson4/NullConception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyCleanNumberArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyEvenArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyRandomNumberFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyVector.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\WORK\Java\IdeaProjects\J1_SE_2021\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1vXMlN31LyvMY75bWahHlbh7Rg9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORK\Java\IdeaProjects\J1_SE_2021" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.lesson5_tasks.App" />
+      <module name="J1_SE_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.lesson5_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7450acae-ef17-4e14-b3a3-1fe44ca367bb" name="Default Changelist" comment="" />
+      <created>1626704129973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626704129973</updated>
+      <workItem from="1626704136767" duration="840000" />
+      <workItem from="1626704989336" duration="3610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lessons 1-4, easy tasks 1-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lessons 1-4, easy tasks 1-5" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626705094246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="317" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626705094246" />
+    <state x="668" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1626707611189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1626707611189" />
+    <state x="711" y="406" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1626705183661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="406" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626705183661" />
+    <state x="443" y="172" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1626705182486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="443" y="172" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626705182486" />
+    <state x="437" y="112" key="CommitChangelistDialog2" timestamp="1626708645420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="437" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1626708645420" />
+    <state x="643" y="272" key="FileChooserDialogImpl" timestamp="1626705148952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626705148952" />
+    <state width="833" height="257" key="GridCell.Tab.0.bottom" timestamp="1626708562793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="833" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626708562793" />
+    <state width="833" height="257" key="GridCell.Tab.0.center" timestamp="1626708562793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="833" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626708562793" />
+    <state width="833" height="257" key="GridCell.Tab.0.left" timestamp="1626708562793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="833" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626708562793" />
+    <state width="833" height="257" key="GridCell.Tab.0.right" timestamp="1626708562793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="833" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626708562793" />
+  </component>
+</project>
