@@ -5,7 +5,7 @@ import main.Task;
 public class App {
 
     public static void main(final String[] args) {
-        doTask5();
+        doTask6();
     }
 
     private static void doTask1() {
@@ -43,6 +43,19 @@ public class App {
         System.out.println(task5.printResult());
         task5.runTask();
         System.out.println(task5.printResult());
+    }
+
+    private static void doTask6() {
+        // Create array
+        int[] array = new int[1000000];
+        long startTime;
+        // Fill array
+        for (int i = 0; i < array.length; i++){
+            array[i] = i;
+        }
+        final Task task6 = new EasyArraySearch(array, 777777);
+        task6.runTask();
+        System.out.println(task6.printResult());
     }
 
 
