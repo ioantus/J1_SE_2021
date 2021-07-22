@@ -1,12 +1,12 @@
 package main.lesson5_tasks;
 
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import main.Task;
 
 import java.util.ArrayList;
+
 
 @Getter
 @RequiredArgsConstructor
