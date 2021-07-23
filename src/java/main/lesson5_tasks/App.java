@@ -1,6 +1,8 @@
 package main.lesson5_tasks;
 
 import main.Task;
+import main.lesson5_tasks.EasyCommand.MyStringBuilder;
+import main.lesson5_tasks.EasyIterator.IteratorTask;
 
 public class App {
 
@@ -19,6 +21,10 @@ public class App {
         doTask6();
         System.out.println("\nTask 7:");
         doTask7();
+        System.out.println("\nTask 8:");
+        doTask8();
+        System.out.println("\nTask 9:");
+        doTask9();
     }
 
     private static void doTask1() {
@@ -82,6 +88,33 @@ public class App {
         ((BaseConverter) task7).setNewGraduation(DegreeGraduation.CELSIUS);
         task7.runTask();
         System.out.println(task7.printResult());
+    }
+
+    private static void doTask8() {
+        final MyStringBuilder builder = new MyStringBuilder();
+        builder.append("1,2,test");
+        System.out.println("append: "+builder.toString());
+        builder.insert(4,"3,4,5");
+        System.out.println("insert: "+builder.toString());
+        builder.delete(5,8);
+        System.out.println("delete: "+builder.toString());
+        builder.append(" Test complete!");
+        System.out.println("append: "+builder.toString());
+        builder.undo();
+        System.out.println("undo: "+builder.toString());
+        builder.undo();
+        System.out.println("undo: "+builder.toString());
+        builder.undo();
+        System.out.println("undo: "+builder.toString());
+        builder.undo();
+        System.out.println("undo: "+builder.toString());
+    }
+
+
+    private static void doTask9() {
+        final Task task9 = new IteratorTask(10, 15);
+        task9.runTask();
+        System.out.println(task9.printResult());
     }
 
 }

@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7450acae-ef17-4e14-b3a3-1fe44ca367bb" name="Default Changelist" comment="Lessons 1-4, easy tasks 1-5">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/lesson5_tasks/BaseConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/lesson5_tasks/DegreeGraduation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/lesson5_tasks/EasyArraySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyCommand/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyCommand/CommandHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyCommand/MyStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyCommand/MyStringBuilderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyIterator/EasyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyIterator/IteratorTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J1_SE_2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/J1_SE_2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/lesson5_tasks/BaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/BaseConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyEvenArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/main/lesson5_tasks/EasyEvenArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/J1_SE-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/J1_SE.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/J1_SE_2021.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/lesson5_tasks/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/lesson5_tasks/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/lesson5_tasks/Easy_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +78,7 @@
       <module name="J1_SE_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.lesson5_tasks.*" />
+          <option name="PATTERN" value="main.lesson5_tasks.EasyIterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626708792944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lessons 1-4, easy tasks 1-5">
+      <created>1626949002416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626949002416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,5 +194,61 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lessons 1-4, easy tasks 1-5" />
     <option name="LAST_COMMIT_MESSAGE" value="Lessons 1-4, easy tasks 1-5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/main/lesson5_tasks/App.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
