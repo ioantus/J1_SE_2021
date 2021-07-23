@@ -11,22 +11,6 @@ public class EasyVector implements Task {
     private final Vector firstVector = Vector.createRandomVector(500);
     private final Vector secondVector = Vector.createRandomVector(500);
 
-    public static void main( final String[] args){
-        Vector firstVector = Vector.createRandomVector(500);
-        System.out.println("firstVector is "+firstVector);
-        System.out.println("firstVector.getLength is "+String.valueOf(firstVector.getLength()));
-
-        Vector secondVector = Vector.createRandomVector(500);
-        System.out.println("secondVector is "+secondVector);
-        System.out.println("secondVector.getLength is "+String.valueOf(secondVector.getLength()));
-
-        System.out.println("firstVector.getScalarProduct(secondVector) is "+String.valueOf(firstVector.getScalarProduct(secondVector)));
-        System.out.println("firstVector.getVectorProduct(secondVector) is "+String.valueOf(firstVector.getVectorProduct(secondVector)));
-        System.out.println("firstVector.getAngle(secondVector) is "+String.valueOf(firstVector.getAngle(secondVector)));
-        System.out.println("firstVector.getAddition(secondVector) is "+String.valueOf(firstVector.getAddition(secondVector)));
-        System.out.println("firstVector.getDifference(secondVector) is "+String.valueOf(firstVector.getDifference(secondVector)));
-    }
-
     @Override
     public void runTask() {}
 
