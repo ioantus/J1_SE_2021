@@ -3,6 +3,11 @@ package main.lesson5_tasks;
 import main.Task;
 import main.lesson5_tasks.EasyCommand.MyStringBuilder;
 import main.lesson5_tasks.EasyIterator.IteratorTask;
+import main.lesson5_tasks.EasyTreeIterator.TreeIterator;
+import main.lesson5_tasks.EasyTreeIterator.TreeIteratorTask;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class App {
 
@@ -25,6 +30,10 @@ public class App {
         doTask8();
         System.out.println("\nTask 9:");
         doTask9();
+        System.out.println("\nTask 10:");
+        doTask10();
+        System.out.println("\nTask 11:");
+        doTask11();
     }
 
     private static void doTask1() {
@@ -115,6 +124,44 @@ public class App {
         final Task task9 = new IteratorTask(10, 15);
         task9.runTask();
         System.out.println(task9.printResult());
+    }
+
+    private static void doTask10() {
+        final Task task10 = new TreeIteratorTask(new ArrayList());
+        ArrayList array1, array2, array3, array4, array5, array6;
+        ((TreeIteratorTask)task10).addElement("1");
+        ((TreeIteratorTask)task10).addElement("2");
+        array1 = new ArrayList();
+        array1.add("3");
+        ((TreeIteratorTask)task10).addElement(new TreeIterator(array1));
+        array2 = new ArrayList();
+        array3 = new ArrayList();
+        array2.add("4");
+        array2.add("5");
+        array3.add("6");
+        array3.add("7");
+        array3.add("8");
+        array2.add(new TreeIterator(array3));
+        ((TreeIteratorTask)task10).addElement(new TreeIterator(array2));
+        array4 = new ArrayList();
+        array5 = new ArrayList();
+        array6 = new ArrayList();
+        array4.add(new TreeIterator(array5));
+        array5.add("9");
+        array5.add(new TreeIterator(array6));
+        array6.add("10");
+        array6.add("11");
+        array6.add("12");
+        ((TreeIteratorTask)task10).addElement(new TreeIterator(array4));
+        task10.runTask();
+        System.out.println(task10.printResult());
+    }
+
+    private static void doTask11() {
+        String[] arrayString = {"12","ab","Ab","12","aA","Ab","cv","cv","aA","12","23","cv"};
+        final Task task11 = new EasyArrayToMap(arrayString);
+        task11.runTask();
+        System.out.println(task11.printResult());
     }
 
 }
